@@ -1,0 +1,19 @@
+This is Output Example :
+OrderedDict([('lat', '-0.72'),
+              ('lon', '31.48389'),
+              ('name', 'Rakai'),
+              ('admin1', 'Central Region'),
+              ('admin2', 'Rakai District'),
+              ('cc', 'UG')])]
+in this value
+ for box in result:
+        sho = box.get("")
+
+        if sho[0] == '':
+            pass
+
+        print(sho[0],end='')
+    # .... this
+This is get "" is where you need to input the key pair in each tuple you can see (lat,lon,name,admin1,admin2......)
+
+[0] is what index of the value pair you want to make it .
